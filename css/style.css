@@ -1,0 +1,59 @@
+.parallax-image {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: middle;
+}
+
+.parallax-text {
+  line-height: 275px;
+  font-size: 300%;
+}
+
+.centered {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.parallax-container {
+  height: 275px;
+}
+
+.row {
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.text-right {
+  margin-left: 20%;
+}
+
+.info {
+  height: auto;
+}
+
+.subsection-content {
+  margin-top: -50px;
+}
+
+.parallax-subsection-title {
+  line-height: 200px;
+  font-size: 300%;
+  color: white;
+}
+
+.black-font {
+  color: black;
+}
+
+.white-font {
+  color: white;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 150%;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
