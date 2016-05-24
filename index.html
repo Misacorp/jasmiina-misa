@@ -6,103 +6,150 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Jasmiina ja Misa</title>
-  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="css/materialize.min.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
+ <main>
+
   <div class="parallax-container">
     <div class="parallax"><img class="parallax-image" src="img/mountain-fog.jpg"/></div>
     <div class="col s12 centered"><span class="parallax-text white-font">Jasmiina ja Misa</span></div>
   </div>
 
-  <div class="container"> <!-- Content -->
+  <div class="container summary"> <!-- Content -->
     <div class="row flow-text">
       <div class="col s4 centered">
-        <i class="large material-icons">info_outline</i>
+        <i class="medium material-icons orange-text text-lighten-3">info_outline</i>
         <p class="title">Info</p>
         <p class="centered">Meillä on tässä informaatiota häistä.</p>
       </div>
       
       <div class="col s4 centered">
-        <i class="large material-icons">person_pin</i>
+        <i class="medium material-icons orange-text text-lighten-3">person_pin</i>
         <p class="title">Ilmoittautuminen</p>
         <p class="centered">Ilmoittaudu häihin ja varmista paikkasi.</p>
       </div>
       
       <div class="col s4 centered">
-        <i class="large material-icons">list</i>
+        <i class="medium material-icons orange-text text-lighten-3">list</i>
         <p class="title">Lahjalista</p>
         <p class="centered">Tutustu lahjatoivelistaan ja varaa itsellesi jotain.</p>
       </div>
     </div>
   </div>
 
+
+<!--        INFO       -->
+
+  <div class="orange lighten-3">
+    <div class="container info">
+      <div class="col s12 centered"><span class="parallax-subsection-title white-font">Info</span></div>
+      
+      <div class="container subsection-content">
+        <ul class="collapsible orange lighten-4" data-collapsible="accordion">
+          <li>
+            <div class="collapsible-header"><i class="material-icons">room</i><i class="material-icons right">more_horiz</i>Paikka</div>
+
+            <div class="collapsible-body row">
+              <div class="col s4">
+                <div class="card z-depth-1">
+                  <div class="card-image">
+                    <img src="img/kuninkaansali.jpg"/>
+                    <span class="card-title hide-on-med-and-down">Kuninkaansali</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col s8 text-right">
+                <div class="card-panel">
+                    <p>Hääjuhlaamme vietetään loisteliaissa tunnelmissa Hämeen Linnassa. Vihkiminen tapahtuu Kuninkaansalissa, jonka jälkeen Kruunun Leipomo isännöi juhlintaa.</p>
+                </div>
+
+                <div class="card-panel">
+                    <p>Vihkiminen on klo 15 ja ruokailu klo 17.</p>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="collapsible-header"><i class="material-icons">people</i>Ihmiset<i class="material-icons right">more_horiz</i></div>
+
+            <div class="collapsible-body">
+              <div class="row hide-on-med-and-up" style="padding-top: 5%;">
+                <div class="col s12">
+                  <img src="img/jasmiina-misa.jpg" class="responsive-img rounded z-depth-1 hoverable tooltipped modal-trigger" data-position="bottom" data-delay="50" data-tooltip="Jasmiina ja Misa" href="#modal-jasmiina-misa"/>
+                </div>
+              </div>
+
+              <div class="row" style="padding-top: 5%;">
+                <div class="col s2 m4 l6">
+                  <img src="img/jasmiina-misa.jpg" class="hide-on-small-only responsive-img rounded z-depth-1 hoverable tooltipped modal-trigger" data-position="bottom" data-delay="50" data-tooltip="Jasmiina ja Misa" href="#modal-jasmiina-misa"/>
+                </div>
+
+                <div class="col s12 m8 l6">
+                  <p class="flow-text title">Jasmiina ja Misa</p>
+                  <p style="margin-top: 5%;">Jasmiina on sonni ja Misa on monni. He tapasivat vieroituksessa elämästä ja rakastuivat viimeisellä silmäyksellään ennen parisuhteen alkua. Nyt he kulkevat kivikkoista tietä elämäm koulussa ja oppivat joka päivä uutta toisistaan.</p>
+                </div>
+              </div>
+
 <!--
+            <div class="collapsible-body">
+              <div class="row">
+                <div class="col s12 centered title flow-text">
+                  Hääpari
+                </div>
+              </div>
 
-  <div class="parallax-container">
-    <div class="parallax"><img class="parallax-image" src="img/forest-fog.jpg"/></div>
-    <div class="col s12 centered"><span class="parallax-text">Info</span></div>
-  </div>
-
-  <div class="container">
-    <div class="row">
-      <div class="col s4">
-        <div class="card hoverable">
-          <div class="card-image">
-            <img src="img/kuninkaansali.jpg"/>
-            <span class="card-title hide-on-med-and-down">Kuninkaansali</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="col s8 text-right">
-        <p class="flow-text">Hääjuhlaamme vietetään loisteliaissa tunnelmissa Hämeen Linnassa. Vihkiminen tapahtuu Kuninkaansalissa, jonka jälkeen Kruunun Leipomo isännöi juhlintaa.</p>
-      </div>
-    </div>
-  </div>
-
-
-
+              <div class="row">
+                <div class="col s12 centered title flow-text">
+                  <div class="centered" style="width: 66%">
+                    <img src="img/jasmiina-misa.jpg" class="responsive-img rounded hoverable tooltipped modal-trigger" data-position="bottom" data-delay="50" data-tooltip="Jasmiina ja Misa" href="#modal-jasmiina-misa"/>
+                  </div>
+                </div>
+              </div>
 -->
+              <div class="row">
+                <div class="col s12 centered flow-text">
+                  Kaasot ja bestmanit
+                </div>
+              </div>
 
+              <div class="row">
+                <div class="col s2">
+                  <img src="img/kaisa.jpg" class="responsive-img z-depth-1 circle hoverable tooltipped modal-trigger" data-position="bottom" data-delay="50" data-tooltip="Kaisa Kuismanen" href="#modal-kaisa"/>
+                </div>
+                <div class="col s2">
+                  <img src="img/anniliina.jpg" class="responsive-img z-depth-1 circle hoverable tooltipped modal-trigger" data-position="bottom" data-delay="50" data-tooltip="Anniliina Parkkinen" href="#modal-anniliina"/>
+                </div>
+                <div class="col s2">
+                  <img src="img/juulia.jpg" class="responsive-img z-depth-1 circle hoverable tooltipped modal-trigger" data-position="bottom" data-delay="50" data-tooltip="Juulia Karppi" href="#modal-juulia"/>
+                </div>
+                <div class="col s2">
+                  <img src="img/bojko.jpg" class="responsive-img z-depth-1 circle hoverable tooltipped modal-trigger" data-position="bottom" data-delay="50" data-tooltip="Bojko Ivanov" href="#modal-bojko"/>
+                </div>
+                <div class="col s2">
+                  <img src="img/jarka.jpg" class="responsive-img z-depth-1 circle hoverable tooltipped modal-trigger" data-position="bottom" data-delay="50" data-tooltip="Jarka Kiihamäki" href="#modal-jarka"/>
+                </div>
+                <div class="col s2">
+                  <img src="img/niko.jpg" class="responsive-img z-depth-1 circle hoverable tooltipped modal-trigger" data-position="bottom" data-delay="50" data-tooltip="Niko Liiri" href="#modal-niko"/>
+                </div>
+              </div>
 
-  <!--- BEGIN EXPERIMENTAL --> 
-
-
-  <div class="parallax-container info">
-    <div class="parallax"><img class="parallax-image" src="img/forest-fog.jpg"/></div>
-    <div class="col s12 centered"><span class="parallax-subsection-title white-font">Info</span></div>
-    
-    <div class="container subsection-content">
-      <div class="row">
-        <div class="col s4">
-          <div class="card z-depth-3">
-            <div class="card-image">
-              <img src="img/kuninkaansali.jpg"/>
-              <span class="card-title hide-on-med-and-down">Kuninkaansali</span>
             </div>
-          </div>
-        </div>
-
-        <div class="col s8 text-right">
-          <div class="card z-depth-3">
-            <div class="card-content">
-              <p class="flow-text">Hääjuhlaamme vietetään loisteliaissa tunnelmissa Hämeen Linnassa. Vihkiminen tapahtuu Kuninkaansalissa, jonka jälkeen Kruunun Leipomo isännöi juhlintaa.</p>
-            </div>
-          </div>
-
-          <div class="card z-depth-3">
-            <div class="card-content">
-              <p class="flow-text">Vihkiminen on klo 15 ja ruokailu klo 17.</p>
-            </div>
-          </div>
-        </div>
+          </li>
       </div>
     </div>
-  
+
+    <div style="height: 100px"></div>
   </div>
+
+
+<!--        ILMOITTAUDU         -->
+
 
   <div class="container">
     <div class="row">
@@ -117,24 +164,147 @@
       </div>
     </div>
 
-    <div class="row">
-      <div class="col s6 centered flow-text">
-        <div class="card z-depth-3">
-          <div class="card-image">
-            <img src="img/kaisa.jpg"/>
-            <span class="card-title hide-on-med-and-down">Kaisa</span>
+    <div class="row centered">
+      <div class="col s2">&nbsp</div>
+
+      <div class="col s4 centered flow-text">
+        <div class="card hoverable">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="img/kaisa.jpg">
+          </div>
+
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">Kaisa Kuismanen<i class="material-icons right">more_vert</i></span>
+          </div>
+
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Kaisa Kuismanen<i class="material-icons right">close</i></span>
+            <p>Kaisa Kuismanen on hieno nainen. Ota häneen yhteyttä!</p>
           </div>
         </div>
       </div>
 
-      <div class="col s6 centered flow-text">
-        <div class="card z-depth-3">
-          <div class="card-image">
-            <img src="img/bojko.jpg"/>
-            <span class="card-title hide-on-med-and-down">Bojko</span>
+      <div class="col s4 centered flow-text">
+        <div class="card hoverable">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="img/bojko.jpg">
           </div>
+
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">Bojko Ivanov<i class="material-icons right">more_vert</i></span>
           </div>
+
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Bojko Ivanov<i class="material-icons right">close</i></span>
+            <p>Bojko Ivanov on hieno mies. Ota häneen yhteyttä!</p>
+          </div>
+        </div>
       </div>
+
+      <div class="col s2">&nbsp</div>
+
+    </div>
+  </div>
+
+  <div class="orange lighten-3">
+    <div class="container info">
+      <div class="row">
+        <div class="col s12 centered">
+          <span class="parallax-subsection-title white-font">Lahjalista</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</main>
+
+<footer class="page-footer">
+  <div class="row">
+    <div class="col s12 centered">
+      <p>Sinep</p>
+    </div>
+  </div>
+</footer>
+
+
+<!--    MODALS      -->
+
+
+
+  <div id="modal-jasmiina-misa" class="modal">
+    <div class="modal-content">
+      <h4>Jasmiina Parkkinen ja Misa Jokisalo</h4>
+      <blockquote>Kulta, sattuu, ei saa!</blockquote>
+      <p>Parisuhde on tuskaa, nyyh.</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">OK</a>
+    </div>
+  </div>
+
+  <div id="modal-kaisa" class="modal">
+    <div class="modal-content">
+      <h4>Kaisa Kuismanen</h4>
+      <blockquote>Siis mää oon Tammmpereelta.</blockquote>
+      <p>Kaisa on koko konkkaronkan ainoa tamperelainen ja puhuu siksi kummallisesti.</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">OK</a>
+    </div>
+  </div>
+
+  <div id="modal-anniliina" class="modal">
+    <div class="modal-content">
+      <h4>Anniliina Parkkinen</h4>
+      <blockquote>Ainakaan se ei luota siihen, mikä on positiivista.</blockquote>
+      <p>Anniliina katsoo Game of Thronesia eikä ole kotoisin mistään.</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">OK</a>
+    </div>
+  </div>
+
+  <div id="modal-juulia" class="modal">
+    <div class="modal-content">
+      <h4>Juulia Karppi</h4>
+      <blockquote>Ainakaan se ei luota siihen, mikä on positiivista.</blockquote>
+      <p>Anniliina katsoo Game of Thronesia eikä ole kotoisin mistään.</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">OK</a>
+    </div>
+  </div>
+
+  <div id="modal-bojko" class="modal">
+    <div class="modal-content">
+      <h4>Bojko Ivanov</h4>
+      <blockquote>Ainakaan se ei luota siihen, mikä on positiivista.</blockquote>
+      <p>Anniliina katsoo Game of Thronesia eikä ole kotoisin mistään.</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">OK</a>
+    </div>
+  </div>
+
+  <div id="modal-jarka" class="modal">
+    <div class="modal-content">
+      <h4>Jarka Kiihamäki</h4>
+      <blockquote>Ainakaan se ei luota siihen, mikä on positiivista.</blockquote>
+      <p>Anniliina katsoo Game of Thronesia eikä ole kotoisin mistään.</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">OK</a>
+    </div>
+  </div>
+
+  <div id="modal-niko" class="modal">
+    <div class="modal-content">
+      <h4>Niko Liiri</h4>
+      <blockquote>Ainakaan se ei luota siihen, mikä on positiivista.</blockquote>
+      <p>Anniliina katsoo Game of Thronesia eikä ole kotoisin mistään.</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">OK</a>
     </div>
   </div>
 

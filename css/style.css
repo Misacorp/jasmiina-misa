@@ -1,3 +1,12 @@
+body {
+  font-size: 13pt;
+  color: #494949;
+}
+
+.collapsible-body p {
+  padding: 0;
+}
+
 .parallax-image {
   max-width: 100%;
   margin-left: auto;
@@ -5,9 +14,13 @@
   vertical-align: middle;
 }
 
+.parallax-container {
+  height: 375px;
+}
+
 .parallax-text {
-  line-height: 275px;
-  font-size: 300%;
+  line-height: 375px;
+  font-size: 220%;
 }
 
 .centered {
@@ -16,17 +29,23 @@
   text-align: center;
 }
 
-.parallax-container {
-  height: 275px;
-}
-
+/*
 .row {
   margin-top: 30px;
   margin-bottom: 40px;
 }
+*/
+
+.row {
+  margin-bottom: 20px;
+}
 
 .text-right {
   margin-left: 20%;
+}
+
+.summary {
+  margin-top: 60px;
 }
 
 .info {
@@ -39,7 +58,7 @@
 
 .parallax-subsection-title {
   line-height: 200px;
-  font-size: 300%;
+  font-size: 220%;
   color: white;
 }
 
@@ -53,7 +72,16 @@
 
 .title {
   font-weight: 500;
-  font-size: 150%;
+  font-size: 125%;
   margin-top: 10px;
   margin-bottom: 0;
+}
+
+.collapsible-body {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.rounded {
+  border-radius: 5px;
 }
