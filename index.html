@@ -14,30 +14,47 @@
 <body>
  <main>
 
+<!--    HEADER IMAGE      -->
+
   <div class="parallax-container">
     <div class="parallax"><img class="parallax-image" src="img/mountain-fog.jpg"/></div>
-    <div class="col s12 centered"><span class="parallax-text white-font">Jasmiina ja Misa</span></div>
+    <div class="col s12 center"><span class="parallax-text white-font">Jasmiina ja Misa</span></div>
   </div>
 
+<!--    SUMMARY      -->
+
   <div class="container summary"> <!-- Content -->
-    <div class="row flow-text">
-      <div class="col s4 centered">
-        <i class="medium material-icons orange-text text-lighten-3">info_outline</i>
-        <p class="title">Info</p>
-        <p class="centered">Meillä on tässä informaatiota häistä.</p>
+    <div class="row">
+      <div class="col s12 m4">
+        <div class="icon-block">
+          <h2 class="center orange-text text-lighten-3">
+            <i class="material-icons medium">info_outline</i>
+          </h2>
+          <h5 class="center">Info</h5>
+          <p class="light center">Meillä on tässä informaatiota häistä.</p>
+        </div>
       </div>
-      
-      <div class="col s4 centered">
-        <i class="medium material-icons orange-text text-lighten-3">person_pin</i>
-        <p class="title">Ilmoittautuminen</p>
-        <p class="centered">Ilmoittaudu häihin ja varmista paikkasi.</p>
+
+      <div class="col s12 m4">
+        <div class="icon-block">
+          <h2 class="center orange-text text-lighten-3">
+            <i class="material-icons medium">person_pin</i>
+          </h2>
+          <h5 class="center">Ilmoittautuminen</h5>
+          <p class="light center flow-text">Ilmoittaudu häihin ja varmista paikkasi.</p>
+        </div>
       </div>
-      
-      <div class="col s4 centered">
-        <i class="medium material-icons orange-text text-lighten-3">list</i>
-        <p class="title">Lahjalista</p>
-        <p class="centered">Tutustu lahjatoivelistaan ja varaa itsellesi jotain.</p>
+
+      <div class="col s12 m4">
+        <div class="icon-block">
+          <h2 class="center orange-text text-lighten-3">
+            <i class="material-icons medium">list</i>
+          </h2>
+          <h5 class="center">Lahjalista</h5>
+          <p class="light center flow-text">Tutustu lahjatoivelistaan ja varaa itsellesi jotain.</p>
+        </div>
       </div>
+
     </div>
   </div>
 
@@ -47,7 +64,7 @@
   <div class="orange lighten-3">
     <div class="container info">
       <div class="row">
-        <div class="col s12 centered"><span class="parallax-subsection-title white-font">Info</span></div>
+        <div class="col s12 center"><span class="parallax-subsection-title white-font">Info</span></div>
       </div>
 
       <div class="row">
@@ -100,12 +117,48 @@
                 </div>
 
                 <div class="row">
-                  <div class="col s12 centered flow-text">
+                  <div class="col s12 center flow-text">
                     Kaasot ja bestmanit
                   </div>
                 </div>
 
-                <div class="row">
+                <div class="row hide-on-med-and-up">
+                  <div class="col s4">
+                  
+                  </div>
+                </div>
+
+
+                <!--    Kaasot ja bestmanit MOBILE    -->
+
+                <div class="row hide-on-med-and-up">
+                  <div class="col s4">
+                    <img src="img/kaisa.jpg" class="responsive-img z-depth-1 circle hoverable tooltipped modal-trigger" data-position="bottom" data-delay="50" data-tooltip="Kaisa Kuismanen" href="#modal-kaisa"/>
+                  </div>
+                  <div class="col s4">
+                    <img src="img/anniliina.jpg" class="responsive-img z-depth-1 circle hoverable tooltipped modal-trigger" data-position="bottom" data-delay="50" data-tooltip="Anniliina Parkkinen" href="#modal-anniliina"/>
+                  </div>
+                  <div class="col s4">
+                    <img src="img/juulia.jpg" class="responsive-img z-depth-1 circle hoverable tooltipped modal-trigger" data-position="bottom" data-delay="50" data-tooltip="Juulia Karppi" href="#modal-juulia"/>
+                  </div>
+                </div>
+
+                <div class="row hide-on-med-and-up">
+                  <div class="col s4">
+                    <img src="img/bojko.jpg" class="responsive-img z-depth-1 circle hoverable tooltipped modal-trigger" data-position="bottom" data-delay="50" data-tooltip="Bojko Ivanov" href="#modal-bojko"/>
+                  </div>
+                  <div class="col s4">
+                    <img src="img/jarka.jpg" class="responsive-img z-depth-1 circle hoverable tooltipped modal-trigger" data-position="bottom" data-delay="50" data-tooltip="Jarka Kiihamäki" href="#modal-jarka"/>
+                  </div>
+                  <div class="col s4">
+                    <img src="img/niko.jpg" class="responsive-img z-depth-1 circle hoverable tooltipped modal-trigger" data-position="bottom" data-delay="50" data-tooltip="Niko Liiri" href="#modal-niko"/>
+                  </div>
+                </div>
+
+
+                <!--      Kaasot ja bestmanit TABLET PC       -->
+
+                <div class="row hide-on-small-only">
                   <div class="col s2">
                     <img src="img/kaisa.jpg" class="responsive-img z-depth-1 circle hoverable tooltipped modal-trigger" data-position="bottom" data-delay="50" data-tooltip="Kaisa Kuismanen" href="#modal-kaisa"/>
                   </div>
@@ -133,7 +186,7 @@
       </div>
     </div>
 
-    <div style="height: 100px"></div>
+    <div style="height: 3rem"></div>
   </div>
 
 
@@ -142,38 +195,33 @@
 
   <div class="container">
     <div class="row">
-      <div class="col s12 centered">
+      <div class="col s12 center">
         <span class="parallax-subsection-title black-font">Ilmoittaudu</span>
       </div>
     </div>
 
     <div class="row subsection-content">
-      <div class="col s12 centered flow-text">
-        Ilmoittautumisia ottavat vastaan kaaso Kaisa ja bestman Bojko :-D.
+      <div class="col s12 center flow-text">
+        Ilmoittautumisia ottavat vastaan kaaso Kaisa ja bestman Bojko tai Jarka. Tästä ei ole vielä yhteisymmärrystä. Ilmoitathan pääsetkö tulemaan, saavutko koko perheesi kanssa ja mahdolliset erikoisruokavaliosi. Kruununleipomo tekee mielellään erityisruokavalioihin sopivat annokset.
       </div>
     </div>
 
-    <div class="row centered">
+    <div class="row center">
       <div class="col s2">&nbsp</div>
 
-      <div class="col s4 centered flow-text">
+      <div class="col s4 center flow-text">
         <div class="card hoverable">
-          <div class="card-image waves-effect waves-block waves-light">
-            <img class="activator" src="img/kaisa.jpg">
+          <div class="card-image">
+            <img src="img/kaisa.jpg">
           </div>
 
           <div class="card-content">
-            <span class="card-title activator grey-text text-darken-4">Kaisa Kuismanen<i class="material-icons right">more_vert</i></span>
-          </div>
-
-          <div class="card-reveal">
-            <span class="card-title grey-text text-darken-4">Kaisa Kuismanen<i class="material-icons right">close</i></span>
-            <p>Kaisa Kuismanen on hieno nainen. Ota häneen yhteyttä!</p>
+            <span class="card-title grey-text text-darken-4">Kaisa Kuismanen<i class="material-icons right">more_vert</i></span>
           </div>
         </div>
       </div>
 
-      <div class="col s4 centered flow-text">
+      <div class="col s4 center flow-text">
         <div class="card hoverable">
           <div class="card-image waves-effect waves-block waves-light">
             <img class="activator" src="img/bojko.jpg">
@@ -198,7 +246,7 @@
   <div class="orange lighten-3">
     <div class="container info">
       <div class="row">
-        <div class="col s12 centered">
+        <div class="col s12 center">
           <span class="parallax-subsection-title white-font">Lahjalista</span>
         </div>
       </div>
@@ -209,7 +257,7 @@
 
 <footer class="page-footer">
   <div class="row">
-    <div class="col s12 centered">
+    <div class="col s12 center">
       <p>Sinep</p>
     </div>
   </div>

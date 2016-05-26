@@ -1,5 +1,5 @@
 body {
-  font-size: 13pt;
+  font-size: 1rem;
   color: #494949;
 }
 
@@ -48,15 +48,12 @@ body {
 */
 
 .row {
-  margin-bottom: 20px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .text-right {
   margin-left: 20%;
-}
-
-.summary {
-  margin-top: 60px;
 }
 
 .info {
@@ -68,7 +65,7 @@ body {
 }
 
 .parallax-subsection-title {
-  line-height: 200px;
+  line-height: 5rem;
   font-size: 220%;
   color: white;
 }
@@ -90,4 +87,24 @@ body {
 
 .rounded {
   border-radius: 5px;
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight: 500;
+}
+
+@media screen and (min-width: 601px) and (max-width: 992px) {
+  h5 {
+    font-size: 1.65rem;
+  }
+}
+
+@media screen and (min-width: 993px) {
+  h5 {
+    font-size: 2rem;
+  }
+}
+
+.light {
+  font-size: 1.3rem;
 }
