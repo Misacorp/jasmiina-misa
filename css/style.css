@@ -3,6 +3,10 @@ body {
   color: #494949;
 }
 
+a {
+  color: inherit !important;
+}
+
 .collapsible {
   width: 90%;
   margin-left: auto;
@@ -107,4 +111,8 @@ h1, h2, h3, h4, h5 {
 
 .light {
   font-size: 1.3rem;
+}
+
+.collapsible .row {
+  margin-bottom: 0;
 }
