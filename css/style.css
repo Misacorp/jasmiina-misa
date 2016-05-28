@@ -38,6 +38,26 @@ a {
   font-size: 220%;
 }
 
+@media screen and (max-width: 600px) {
+  .parallax-container {
+    height: 100px;
+  }
+
+  .parallax-text {
+    line-height: 100px;
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 900px) {
+  .parallax-container {
+    height: 200px;
+  }
+
+  .parallax-text {
+    line-height: 200px;
+  }
+}
+
 .centered {
   margin-left: auto;
   margin-right: auto;
@@ -115,4 +135,14 @@ h1, h2, h3, h4, h5 {
 
 .collapsible .row {
   margin-bottom: 0;
+}
+
+.chip {
+  margin: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.hoverable {
+  cursor: pointer;
 }
