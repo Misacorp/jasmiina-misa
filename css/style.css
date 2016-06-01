@@ -84,6 +84,12 @@ a {
   height: auto;
 }
 
+.subsection-title {
+  line-height: 5rem;
+  margin-top: 1.5rem;
+  font-size: 2rem;
+} 
+
 .subsection-content {
   margin-top: -50px;
 }
@@ -145,4 +151,12 @@ h1, h2, h3, h4, h5 {
 
 .hoverable {
   cursor: pointer;
+}
+
+.container {
+  padding-bottom: 2rem;
+}
+
+.summary {
+  padding-bottom: 0;
 }
