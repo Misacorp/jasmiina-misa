@@ -160,3 +160,18 @@ h1, h2, h3, h4, h5 {
 .summary {
   padding-bottom: 0;
 }
+
+.time {
+  font-weight: 600;
+  margin-right: 2rem;
+  font-size: 0.85rem;
+}
+
+.timetable {
+  padding-top: 0;
+  margin-bottom: 0;
+}
+
+.list-container {
+  padding-bottom: 1rem;
+}
