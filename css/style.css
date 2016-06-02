@@ -29,7 +29,7 @@ a {
   vertical-align: middle;
 }
 
-.parallax-container {
+.parallax-header {
   height: 375px;
 }
 
@@ -39,7 +39,7 @@ a {
 }
 
 @media screen and (max-width: 600px) {
-  .parallax-container {
+  .parallax-header {
     height: 100px;
   }
 
@@ -49,7 +49,7 @@ a {
 }
 
 @media screen and (min-width: 601px) and (max-width: 900px) {
-  .parallax-container {
+  .parallax-header {
     height: 200px;
   }
 
@@ -139,6 +139,11 @@ h1, h2, h3, h4, h5 {
   font-size: 1.3rem;
 }
 
+.cursive {
+  font-weight: 300;
+  font-style: italic;
+}
+
 .collapsible .row {
   margin-bottom: 0;
 }
@@ -174,4 +179,28 @@ h1, h2, h3, h4, h5 {
 
 .list-container {
   padding-bottom: 1rem;
+}
+
+.repeating-image {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  background-image: url("../img/brick-texture.jpg");
+  background-repeat: repeat;
+  background-position: 0 0;
+  width: 2048px;
+  height: 100%;
+}
+
+.semitransparent {
+  background-color: rgba(255,255,255,0.85)
+}
+
+.parallax-break {
+  height: 175px;
+}
+
+.parallax-break p {
+  line-height: 175px;
+  font-size: 180%;
 }

@@ -1,5 +1,15 @@
 <!DOCTYPE HTML>
 
+<!-- 
+
+TODO:
+
+- Remove modals at least on mobile
+- Finish the site
+
+-->
+
+
 <html lang="FI">
 
 <head>
@@ -16,7 +26,7 @@
 
 <!--    HEADER IMAGE      -->
 
-  <div class="parallax-container">
+  <div class="parallax-container parallax-header">
     <div class="parallax"><img class="parallax-image" src="img/mountain-fog.jpg"/></div>
     <div class="col s12 center"><span class="parallax-text white-font">Jasmiina ja Misa</span></div>
   </div>
@@ -37,7 +47,7 @@
         </div>
       </a>
       
-      <a hreF="#ilmoittautuminen">
+      <a href="#ilmoittautuminen">
         <div class="col s12 m4">
           <div class="icon-block">
             <h2 class="center orange-text text-lighten-3">
@@ -65,17 +75,31 @@
   </div>
 
 
+
+
+
+<!--    MIDDLE IMAGE      -->
+
+  <div class="parallax-container parallax-break">
+    <div class="parallax"><img class="parallax-image" src="img/forest-fog.jpg"/></div>
+      <div class="centered cursive white-text"><p>&#8220Kun joulu tulee, pitää olla valmis.&#8221</p></div>
+  </div>
+
+
+
+
+
 <!--        INFO       -->
 
-  <div class="orange lighten-3">
     <div class="container info" id="info">
+
       <div class="row">
-        <div class="col s12 center subsection-title"><span class="white-font">Info</span></div>
+        <div class="col s12 center subsection-title">Info</div>
       </div>
 
       <div class="row">
         <div class="col s12">
-          <ul class="collapsible orange lighten-4" data-collapsible="accordion">
+          <ul class="collapsible semitransparent" data-collapsible="accordion">
             <li>
               <div class="collapsible-header"><i class="material-icons">room</i><i class="material-icons right">more_horiz</i>Paikka</div>
 
@@ -223,13 +247,13 @@
         </div>    <!-- END FULL WIDTH COLUMN -->
       </div>    <!-- END ROW -->
     </div>    <!-- END INFO CONTAINER -->
-  </div>
 
 
 <!--        ILMOITTAUTUMINEN         -->
 
 
   <div class="container" id="ilmoittautuminen">
+
     <div class="row">
       <div class="col s12 center subsection-title">
         <span class="black-font">Ilmoittautuminen</span>
@@ -250,7 +274,7 @@
 
     <div class="row center">
       <div class="col s12">
-        Kaaso Kaisa ja bestman Bojko ottavat vastaan ilmoittautumisia puhelimitse, tekstiviestillä ja sähköpostilla.
+        Kaaso Kaisa ja bestman Jarka ottavat vastaan ilmoittautumisia puhelimitse, tekstiviestillä ja sähköpostilla.
       </div>
     </div>
     <div class="row center">
@@ -259,9 +283,9 @@
           <img src="img/kaisa.jpg" alt="Ota yhteyttä">
           Kaisa Kuismanen
         </div>
-        <div class="chip hoverable modal-trigger" href="#modal-bojko">
-          <img src="img/bojko.jpg" alt="Ota yhteyttä">
-          Bojko Ivanov
+        <div class="chip hoverable modal-trigger" href="#modal-jarka">
+          <img src="img/jarka.jpg" alt="Ota yhteyttä">
+          Jarka Kiihamäki
         </div>
       </div>
     </div>
@@ -274,18 +298,31 @@
           <span class="white-font">Lahjalista</span>
         </div>
       </div>
+
+      <div class="row">
+        <div class="col s3">
+          <div class="card">
+            <div class="card-image"><img src="img/kuninkaansali.jpg"/></div>
+            <div class="card-content">Lahjalistalinkki tai jotain</div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 
 </main>
 
-<footer class="page-footer">
-  <div class="row">
-    <div class="col s12 center">
-      <p>Sinep</p>
-    </div>
-  </div>
-</footer>
+
+
+
+
+
+
+
+
+
+
+
 
 
 <!--    MODALS      -->
