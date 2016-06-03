@@ -100,14 +100,6 @@ a {
   color: white;
 }
 
-.black-font {
-  color: black;
-}
-
-.white-font {
-  color: white;
-}
-
 .title {
   font-weight: 500;
   font-size: 125%;
@@ -200,7 +192,27 @@ h1, h2, h3, h4, h5 {
   height: 175px;
 }
 
-.parallax-break p {
+.break-text {
   line-height: 175px;
-  font-size: 180%;
+  font-size: 1.8rem;
+}
+
+@media screen and (max-width: 600px) {
+  .parallax-break {
+    height: 75px;
+  }
+
+  .break-text {
+    line-height: 75px;
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 900px) {
+  .parallax-break {
+    height: 100px;
+  }
+
+  .break-text {
+    line-height: 100px;
+  }
 }
