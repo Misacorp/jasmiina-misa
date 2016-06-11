@@ -40,21 +40,21 @@ a {
 
 @media screen and (max-width: 600px) {
   .parallax-header {
-    height: 100px;
-  }
-
-  .parallax-text {
-    line-height: 100px;
-  }
-}
-
-@media screen and (min-width: 601px) and (max-width: 900px) {
-  .parallax-header {
     height: 200px;
   }
 
   .parallax-text {
     line-height: 200px;
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 900px) {
+  .parallax-header {
+    height: 300px;
+  }
+
+  .parallax-text {
+    line-height: 300px;
   }
 }
 
@@ -199,21 +199,22 @@ h1, h2, h3, h4, h5 {
 
 @media screen and (max-width: 600px) {
   .parallax-break {
-    height: 75px;
+    height: 125px;
   }
 
   .break-text {
-    line-height: 75px;
+    line-height: 125px;
+    display: none;
   }
 }
 
 @media screen and (min-width: 601px) and (max-width: 900px) {
   .parallax-break {
-    height: 100px;
+    height: 200px;
   }
 
   .break-text {
-    line-height: 100px;
+    line-height: 200px;
   }
 }
 
@@ -231,7 +232,7 @@ h1, h2, h3, h4, h5 {
 
 @media screen and (min-width: 601px) and (max-width: 900px) {
   .fancy {
-    font-size: 2.4rem;
+    font-size: 3rem;
   }
 }
 
