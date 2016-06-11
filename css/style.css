@@ -189,11 +189,11 @@ h1, h2, h3, h4, h5 {
 }
 
 .parallax-break {
-  height: 475px;
+  height: 375px;
 }
 
 .break-text {
-  line-height: 475px;
+  line-height: 375px;
   font-size: 1.8rem;
 }
 
@@ -233,4 +233,26 @@ h1, h2, h3, h4, h5 {
   .fancy {
     font-size: 2.4rem;
   }
+}
+
+.click-here-container {
+  position: relative;
+  z-index: 9;
+}
+
+.click-here {
+  font-family: Pacifico;
+  font-size: 1.75rem;
+  height: 50px;
+  line-height: 50px;
+  position: absolute;
+  top: 17px;
+  right: -5%;
+
+}
+
+.click-here-text {
+  position: absolute;
+  top: 33px;
+  right: -72%;
 }

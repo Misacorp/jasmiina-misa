@@ -13,3 +13,7 @@ $(document).ready(function() {
   // This will remove the tooltip functionality for the buttons on this page
   $('.tooltipped').tooltip('remove');
  }); */
+
+$("#infolista").click(function() {
+	$("#click-here-container").hide();
+});
