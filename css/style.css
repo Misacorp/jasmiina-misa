@@ -259,3 +259,7 @@ h1, h2, h3, h4, h5 {
   top: 33px;
   right: -72%;
 }
+
+.padded-bottom {
+  padding-bottom: 2.5rem;
+}
