@@ -133,6 +133,14 @@ h1, h2, h3, h4, h5 {
   font-size: 1.3rem;
 }
 
+.semibold {
+  font-weight: 400;
+}
+
+.bold {
+  font-weight: 500;
+}
+
 .cursive {
   font-weight: 300;
   font-style: italic;
@@ -262,4 +270,40 @@ h1, h2, h3, h4, h5 {
 
 .padded-bottom {
   padding-bottom: 2.5rem;
+}
+
+.align-right-on-medium-and-up {
+  text-align: right;
+}
+
+@media screen and (max-width: 600px) {
+  .align-right-on-medium-and-up {
+    text-align: left;
+  }
+}
+
+.medium-image {
+  width: 100%;
+  max-width: 150px;
+  height: auto;
+}
+
+.unselectable {
+   -moz-user-select: -moz-none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+
+   /*
+     Introduced in IE 10.
+     See http://ie.microsoft.com/testdrive/HTML5/msUserSelect/
+   */
+   -ms-user-select: none;
+   user-select: none;
+}
+
+.contact-card {
+  padding: 5px;
+  padding-top: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
 }

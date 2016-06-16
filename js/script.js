@@ -17,3 +17,15 @@ $(document).ready(function() {
 $("#infolista").click(function() {
 	$("#click-here-container").hide();
 });
+
+// if ($(window).width() > 600) {
+//     $('#jarka-contact-image').addClass('circle');
+// } else {
+//     $('#jarka-contact-image').removeClass('circle');
+// }
+
+// if ($(window).width() > 600) {
+//     $('#kaisa-contact-image').addClass('circle');
+// } else {
+//     $('#kaisa-contact-image').removeClass('circle');
+// }
