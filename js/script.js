@@ -1,7 +1,7 @@
  $(document).ready(function(){
       $('.parallax').parallax();
       $('#jarkanmaili').text(rakennaPosti("kiihamaki","jarka.","l.com","gmai"))
-      $('#kaisanmaili').text(rakennaPosti(".kuismanen","kaisa","il.com","gma"))
+      $('#kaisanmaili').text(rakennaPosti("kuismanen","kaisak","il.com","gma"))
     });
 
  $(document).ready(function(){
