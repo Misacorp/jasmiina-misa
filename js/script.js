@@ -1,5 +1,7 @@
  $(document).ready(function(){
       $('.parallax').parallax();
+      $('#jarkanmaili').text(rakennaPosti("kiihamaki","jarka.","l.com","gmai"))
+      $('#kaisanmaili').text(rakennaPosti(".kuismanen","kaisa","il.com","gma"))
     });
 
  $(document).ready(function(){
@@ -7,25 +9,11 @@
     $('.modal-trigger').leanModal();
   });
 
-/*
-$(document).ready(function() {
- if($(window).width() < 600) 
-  // This will remove the tooltip functionality for the buttons on this page
-  $('.tooltipped').tooltip('remove');
- }); */
-
 $("#infolista").click(function() {
 	$("#click-here-container").hide();
 });
 
-// if ($(window).width() > 600) {
-//     $('#jarka-contact-image').addClass('circle');
-// } else {
-//     $('#jarka-contact-image').removeClass('circle');
-// }
-
-// if ($(window).width() > 600) {
-//     $('#kaisa-contact-image').addClass('circle');
-// } else {
-//     $('#kaisa-contact-image').removeClass('circle');
-// }
+var rakennaPosti = function(username2, username1, domain2, domain1) {
+  var posti = username1+username2+"@"+domain1+domain2;
+  return posti;
+}
