@@ -307,3 +307,17 @@ h1, h2, h3, h4, h5 {
   margin-left: 20px;
   margin-right: 20px;
 }
+
+.contact-list-header {
+  height: 50px;
+  line-height: 2.1rem !important;
+  font-size: 1.2rem;
+}
+
+.contact-list-image {
+  width: 100%;
+  max-width: 35px;
+  height: auto;
+  margin-left: -5px;
+  margin-top: -5px;
+}
