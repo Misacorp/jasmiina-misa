@@ -338,3 +338,17 @@ h1, h2, h3, h4, h5 {
     display: none;
   }
 }
+
+.not-ready {
+  position: absolute;
+  top: 70%;
+  left: 10%;
+  right: 10%;
+}
+
+@media screen and (max-width: 600px) {
+  .not-ready {
+    background-color: red;
+    z-index: 99;
+  }
+}
