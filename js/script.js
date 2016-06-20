@@ -1,3 +1,5 @@
+var text_kaisa = "Kaisa on Jasmiinan pitkäaikainen kämppis ja vielä pidempiaikainen ystävä."
+
  $(document).ready(function(){
       $('.parallax').parallax();
       $('#jarkanmaili').text(rakennaPosti("kiihamaki","jarka.","l.com","gmai"))
@@ -17,3 +19,7 @@ var rakennaPosti = function(username2, username1, domain2, domain1) {
   var posti = username1+username2+"@"+domain1+domain2;
   return posti;
 }
+
+$("#kaisa-button").click(function() {
+  $("#kaaso-bestman-text").text(text_kaisa);
+});

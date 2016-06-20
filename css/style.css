@@ -117,6 +117,12 @@ h1, h2, h3, h4, h5 {
   font-weight: 500;
 }
 
+h6 {
+  margin-bottom: 1rem;
+  font-weight: 400;
+  font-size: 1.35rem;
+}
+
 @media screen and (min-width: 601px) and (max-width: 992px) {
   h5 {
     font-size: 1.65rem;
@@ -341,14 +347,30 @@ h1, h2, h3, h4, h5 {
 
 .not-ready {
   position: absolute;
-  top: 70%;
+  top: 17rem;
   left: 10%;
   right: 10%;
+  background-color: rgba(0,0,0,0.8);
+  padding: 10px;
+  border: solid 4px rgba(255,255,255,0.8);
+}
+
+
+@media screen and (max-width: 900px) and (min-width: 601px) {
+  .not-ready {
+    top: 14rem;
+    border: solid 3px rgba(255,255,255,0.8);
+  }
 }
 
 @media screen and (max-width: 600px) {
   .not-ready {
-    background-color: red;
-    z-index: 99;
+    top: 10rem;
+    border: solid 2px rgba(255,255,255,0.8);
   }
+}
+
+.kaaso-bestman-container {
+  padding: 0 !important;
+  margin-top: 1rem;
 }
