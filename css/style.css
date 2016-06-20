@@ -274,8 +274,13 @@ h6 {
   right: -72%;
 }
 
+.padded-1 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
 .padded-bottom {
-  padding-bottom: 2.5rem;
+  padding-bottom: 1.5rem;
 }
 
 .align-right-on-medium-and-up {
@@ -373,4 +378,10 @@ h6 {
 .kaaso-bestman-container {
   padding: 0 !important;
   margin-top: 1rem;
+}
+
+.image-background {
+  background: url(../img/kartta-bg.jpg) center center no-repeat;
+  background-size: cover;
+  overflow:hidden;
 }
