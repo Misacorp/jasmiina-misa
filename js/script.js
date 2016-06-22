@@ -1,4 +1,9 @@
-var text_kaisa = "Kaisa on Jasmiinan pitkäaikainen kämppis ja vielä pidempiaikainen ystävä."
+var kaisa_text = "Kaisa on Jasmiinan pitkäaikainen kämppis ja vielä pidempiaikainen ystävä.";
+var anniliina_text = "Anniliina on Jasmiinan sisko ja tietysti tärkeä ihminen!!!";
+var juulia_text = "Kuopio sistas at it again.";
+var bojko_text = "Lukuisten onnistuneiden Team Fortress Medic combojen jälkeen Bojkosta tuli Misan #1 luottomies.";
+var jarka_text = "Aina pelissä, aina lenkillä. Jarka ja Misa perustivat #ovipeelot IRC-kanavan ja tuovat sitä kautta neljä ihmistä yhteen murehtimaan elämän julmuutta.";
+var niko_text = "Nikon ja Misan yhteinen kämmpisvuosi oli herkkä ja intiimi.";
 
 $(document).ready(function() {
       $('.parallax').parallax();
@@ -25,6 +30,8 @@ var rakennaPuh = function(osa4, osa3, osa2, osa1) {
   return puh;
 }
 
-$("#kaisa-button").click(function() {
-  $("#kaaso-bestman-text").text(text_kaisa);
+$(".person-button").click(function() {
+  var nimi = $(this).closest("img").attr("id");
+  nimi = nimi.replace("-button","_text");
+  $("#kaaso-bestman-text").text(window[nimi]);
 });

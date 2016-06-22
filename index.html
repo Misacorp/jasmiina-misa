@@ -4,9 +4,7 @@
 
 TODO:
 
-- Remove modals at least on mobile
 - Finish the site
-- Hide Ilmoittautuminen contact list icons on correct page width
 
 -->
 
@@ -98,9 +96,6 @@ TODO:
 
   <div class="parallax-container parallax-break">
     <div class="parallax"><img class="parallax-image" src="img/bg-1.jpg"/></div>
-      <!-- <div class="centered cursive white-text break-text">
-        <span class="flow-text">&#8220Kun joulu tulee, pitää olla valmis.&#8221</span>
-      </div> -->
   </div>
 
 
@@ -126,12 +121,12 @@ TODO:
           </div>
 
 
-          <ul class="collapsible semitransparent" id="infolista" data-collapsible="accordion">
+          <ul class="collapsible" id="infolista" data-collapsible="accordion">
             <li>
               <div class="collapsible-header"><i class="material-icons">room</i><i class="material-icons right">more_horiz</i>Paikka</div>
 
-              <div class="collapsible-body row">
-                <div class="row center" style="margin-top: 3rem; margin-bottom: 3rem;">
+              <div class="collapsible-body">
+                <div class="row center padded-3">
                   <div class="col s12">
                     <span class="flow-text">Vietämme hääjuhlaa kuninkaallisissa tunnelmissa Hämeen Linnassa.</span>
                   </div>
@@ -155,7 +150,7 @@ TODO:
                 </div>  <!-- END ROW -->
 
                 <div class="row">
-                  <div class="col s12 m8 push-m4">
+                  <div class="col s12 m8">
                     <h6>Pysäköinti</h6>
                     <p>Hämeen Linnassa toimivan kansallismuseon <a class="bold" href="http://www.kansallismuseo.fi/fi/hameen-linna/yhteystiedot">verkkosivuilla</a> kerrotaan pysäköinnistä seuraavasti:</p>
                     <blockquote>
@@ -163,7 +158,7 @@ TODO:
                     </blockquote>
                   </div>
 
-                  <div class="col s12 m4 pull-m8">
+                  <div class="col s12 m4">
                     <div class="card-panel center image-background">
                       <p style="margin-bottom: 1rem;" class="flow-text">Hämeen linna <br> Kustaa III:n katu 6 <br> Hämeenlinna</p>
                       <a href="https://www.google.fi/maps/place/H%C3%A4me+Castle,+Kustaa+III:n+katu+6,+13100+H%C3%A4meenlinna/@61.0036441,24.4571055,17z/data=!3m1!4b1!4m5!3m4!1s0x468e5dbe5978f701:0x57a2a1daa6a5de53!8m2!3d61.0036415!4d24.4592942?hl=en" class="waves-effect waves-light btn white grey-text text-darken-3">Kartta</a>
@@ -177,38 +172,27 @@ TODO:
               <div class="collapsible-header"><i class="material-icons">schedule</i><i class="material-icons right">more_horiz</i>Ohjelma</div>
 
               <div class="collapsible-body">
-                <div class="row list-container">
-                  <div class="row center" style="margin-top: 3rem; margin-bottom: 3rem;">
-                    <div class="col s12">
-                      <span class="flow-text">Vihkiminen käynnistää juhlan klo 15.</span>
-                    </div>
-                  </div>
-
+                <div class="row center padded-3">
                   <div class="col s12">
-                    <p style="margin-bottom: 2rem;">Seuraava ohjelma on sisällöltään ja tarkkuudeltaan korkeintaan suuntaa-antava. Muutoksia saattaa tulla vielä hääpäivänäkin!</p>
-
-                    <ul class="collection">
-                      <li class="collection-item">
-                        <span class="time"></span>
-                        <i class="material-icons left orange-text text-lighten-3">favorite</i>Vihkiminen</li>
-                      <li class="collection-item">
-                        <span class="time"></span>
-                        <i class="material-icons left orange-text text-lighten-3">photo_camera</i>Valokuvaus</li>
-                      <li class="collection-item">
-                        <span class="time"></span>
-                        <i class="material-icons left orange-text text-lighten-3">restaurant</i>Päivällinen</li>
-                      <li class="collection-item">
-                        <span class="time"></span>
-                        <i class="material-icons left orange-text text-lighten-3">local_play</i>Ohjelmaa ja karkkibuffet</li>
-                      <li class="collection-item">
-                        <span class="time"></span>
-                        <i class="material-icons left orange-text text-lighten-3">cake</i>Kakkua</li>
-                      <li class="collection-item">
-                        <span class="time"></span>
-                        <i class="material-icons left orange-text text-lighten-3">sentiment_very_satisfied</i>Party time</li>
-                    </ul>
-
+                    <span class="flow-text">Juhliminen alkaa vihkimisellä kello 15.</span>
                   </div>
+                </div>
+
+                <div class="row">
+                  <div class="col s12">
+                    <p>
+                      Juhlan aikana saamme nauttia herkullisesta ruoasta ja viihdyttävästä ohjelmasta. Sointuisan musiikin säestämässä taianomaisessa ilmapiirissä voimme nauttia toistemme seurasta ja pelata erän jos toisenkin erikoisia korttipelejä. Jos tanssijalka alkaa vipattamaan, tarjoutuu loppuillasta mahdollisuus pyörähtää parketilla.
+                    </p>
+
+                    <p>
+                      Linnaravintola Brahen baari tarjoilee juhlan aikana juomia omakustanteisesti.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="col s12">
+                  
+
                 </div>
               </div>
             </li>
@@ -240,25 +224,25 @@ TODO:
                 <div class="row">
                   <div class="col s12 m6 kaaso-bestman-container">
                     <div class="col s4">
-                      <img src="img/kaisa.jpg" id="kaisa-button" class="responsive-img z-depth-1 circle hoverable tooltipped waves-effect waves-light" data-position="bottom" data-delay="50" data-tooltip="Kaisa Kuismanen"/>
+                      <img src="img/kaisa.jpg" id="kaisa-button" class="responsive-img z-depth-1 circle hoverable tooltipped waves-effect waves-light person-button" data-position="bottom" data-delay="50" data-tooltip="Kaisa Kuismanen"/>
                     </div>
                     <div class="col s4">
-                      <img src="img/anniliina.jpg" class="responsive-img z-depth-1 circle hoverable tooltipped waves-effect waves-light" data-position="bottom" data-delay="50" data-tooltip="Anniliina Parkkinen"/>
+                      <img src="img/anniliina.jpg" id="anniliina-button" class="responsive-img z-depth-1 circle hoverable tooltipped waves-effect waves-light person-button" data-position="bottom" data-delay="50" data-tooltip="Anniliina Parkkinen"/>
                     </div>
                     <div class="col s4">
-                      <img src="img/juulia.jpg" class="responsive-img z-depth-1 circle hoverable tooltipped waves-effect waves-light" data-position="bottom" data-delay="50" data-tooltip="Juulia Karppi"/>
+                      <img src="img/juulia.jpg" id="juulia-button" class="responsive-img z-depth-1 circle hoverable tooltipped waves-effect waves-light person-button" data-position="bottom" data-delay="50" data-tooltip="Juulia Karppi"/>
                     </div>
                   </div>
 
                   <div class="col s12 m6 kaaso-bestman-container">
                     <div class="col s4">
-                      <img src="img/bojko.jpg" class="responsive-img z-depth-1 circle hoverable tooltipped waves-effect waves-light" data-position="bottom" data-delay="50" data-tooltip="Bojko Ivanov"/>
+                      <img src="img/bojko.jpg" id="bojko-button" class="responsive-img z-depth-1 circle hoverable tooltipped waves-effect waves-light person-button" data-position="bottom" data-delay="50" data-tooltip="Bojko Ivanov"/>
                     </div>
                     <div class="col s4">
-                      <img src="img/jarka.jpg" class="responsive-img z-depth-1 circle hoverable tooltipped waves-effect waves-light" data-position="bottom" data-delay="50" data-tooltip="Jarka Kiihamäki"/>
+                      <img src="img/jarka.jpg" id="jarka-button" class="responsive-img z-depth-1 circle hoverable tooltipped waves-effect waves-light person-button" data-position="bottom" data-delay="50" data-tooltip="Jarka Kiihamäki"/>
                     </div>
                     <div class="col s4">
-                      <img src="img/niko.jpg" class="responsive-img z-depth-1 circle hoverable tooltipped waves-effect waves-light" data-position="bottom" data-delay="50" data-tooltip="Niko Liiri"/>
+                      <img src="img/niko.jpg" id="niko-button" class="responsive-img z-depth-1 circle hoverable tooltipped waves-effect waves-light person-button" data-position="bottom" data-delay="50" data-tooltip="Niko Liiri"/>
                     </div>
                   </div>
                 </div>  <!-- END ROW -->
@@ -268,8 +252,6 @@ TODO:
                     <p id="kaaso-bestman-text" class="center"></p>
                   </div>
                 </div>
-
-                <div style="height: 1rem"></div>    <!-- EXTRA PADDING UNDER IMAGES -->
 
               </div>    <!-- END COLLAPSIBLE BODY -->
             </li>
@@ -287,7 +269,6 @@ TODO:
 
   <div class="parallax-container parallax-break">
     <div class="parallax"><img class="parallax-image" src="img/bg-2.jpg"/></div>
-      <!-- <div class="centered cursive white-text break-text"><span class="flow-text">&#8220Tiimissä ei ole iitä.&#8221</span></div> -->
   </div>
 
 
@@ -317,13 +298,11 @@ TODO:
       </div>
     </div>
 
-
     <div class="row center">
       <div class="col s12">
         Kaaso Kaisa ja bestman Jarka ottavat vastaan ilmoittautumisia puhelimitse, tekstiviestillä ja sähköpostilla.
       </div>
     </div>
-
 
     <div class="row" style="padding-top: 10px;">
       <div class="col s12 m6">
@@ -346,41 +325,9 @@ TODO:
             <li class="collection-item">
               <i class="material-icons left">email</i><span id="jarkanmaili"><span></li>
           </ul>
-        </div>
       </div>
-
-      <!-- <div class="row" style="padding-top: 10px;">
-        <div class="col s12 m6">
-          <ul class="collection">
-            <li class="collection-item avatar">
-              <img src="img/kaisa.jpg" class="circle">
-              <span class="title">Kaisa Kuismanen</span>
-              <p><i class="material-icons">phone</i>040 123 1234 <br>
-                <i class="material-icons">email</i><span id="kaisanmaili"></span>
-              </p>
-            </li>
-          </ul>
-        </div>
-
-        <div class="col s12 m6">
-          <ul class="collection">
-            <li class="collection-item avatar">
-              <img src="img/jarka.jpg" class="circle">
-              <span class="title">Jarka Kiihamäki</span>
-              <p><i class="material-icons left">phone</i>040 123 1234 <br>
-                <i class="material-icons left">email</i><span id="jarkanmaili"></span>
-              </p>
-            </li>
-          </ul>
-        </div>
-      </div> -->
-
-
-
+    </div>
   </div>
-</div>
-
-  </div>   <!--  END CONTAINER  -->
 
 
 
@@ -391,7 +338,6 @@ TODO:
 
   <div class="parallax-container parallax-break">
     <div class="parallax"><img class="parallax-image" src="img/bg-5.jpg"/></div>
-      <!-- <div class="centered cursive white-text break-text"><span class="flow-text">&#8220Miksi vain syödä kun voi syödä ja juoda?&#8221</span></div> -->
   </div>
 
 
@@ -587,9 +533,9 @@ TODO:
 
 
 
-  <!--- END EXPERIMENTAL -->
 
-  <!-- <img src="img/mountain-fog.jpg"/> -->
+
+
 
   <script src="js/jquery-1.12.4.min.js"></script>
   <script src="js/materialize.min.js"></script>

@@ -9,6 +9,21 @@ a {
   color: inherit !important;
 }
 
+h1, h2, h3, h4, h5 {
+  font-weight: 500;
+}
+
+h5 {
+  font-size: 2rem;
+}
+
+h6 {
+  margin-bottom: 1rem;
+  margin-top: 0;
+  font-weight: 400;
+  font-size: 1.35rem;
+}
+
 .collapsible {
   width: 90%;
   margin-left: auto;
@@ -22,6 +37,7 @@ a {
 
 .collapsible-body p {
   padding: 0;
+  margin-bottom: 1em;
 }
 
 .parallax-image {
@@ -40,38 +56,11 @@ a {
   font-size: 220%;
 }
 
-@media screen and (max-width: 600px) {
-  .parallax-header {
-    height: 200px;
-  }
-
-  .parallax-text {
-    line-height: 200px;
-  }
-}
-
-@media screen and (min-width: 601px) and (max-width: 900px) {
-  .parallax-header {
-    height: 300px;
-  }
-
-  .parallax-text {
-    line-height: 300px;
-  }
-}
-
 .centered {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
 }
-
-/*
-.row {
-  margin-top: 30px;
-  margin-bottom: 40px;
-}
-*/
 
 .row {
   margin-top: 1rem;
@@ -113,28 +102,6 @@ a {
   border-radius: 5px;
 }
 
-h1, h2, h3, h4, h5 {
-  font-weight: 500;
-}
-
-h6 {
-  margin-bottom: 1rem;
-  font-weight: 400;
-  font-size: 1.35rem;
-}
-
-@media screen and (min-width: 601px) and (max-width: 992px) {
-  h5 {
-    font-size: 1.65rem;
-  }
-}
-
-@media screen and (min-width: 993px) {
-  h5 {
-    font-size: 2rem;
-  }
-}
-
 .light {
   font-size: 1.3rem;
 }
@@ -152,10 +119,6 @@ h6 {
   font-style: italic;
 }
 
-.collapsible .row {
-  margin-bottom: 0;
-}
-
 .chip {
   margin: 5px;
   margin-left: 10px;
@@ -168,6 +131,11 @@ h6 {
 
 .container {
   padding-bottom: 2rem;
+}
+
+.container .row {
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .summary {
@@ -213,43 +181,10 @@ h6 {
   font-size: 1.8rem;
 }
 
-@media screen and (max-width: 600px) {
-  .parallax-break {
-    height: 125px;
-  }
-
-  .break-text {
-    line-height: 125px;
-    display: none;
-  }
-}
-
-@media screen and (min-width: 601px) and (max-width: 1100px) {
-  .parallax-break {
-    height: 200px;
-  }
-
-  .break-text {
-    line-height: 200px;
-  }
-}
-
 .fancy {
   font-family: Pacifico;
   font-size: 4rem;
   text-shadow: 2px 2px 4px rgba(0,0,0,0.25);
-}
-
-@media screen and (max-width: 600px) {
-  .fancy {
-    font-size: 2rem;
-  }
-}
-
-@media screen and (min-width: 601px) and (max-width: 900px) {
-  .fancy {
-    font-size: 3rem;
-  }
 }
 
 .click-here-container {
@@ -279,18 +214,17 @@ h6 {
   margin-bottom: 1rem;
 }
 
+.padded-3 {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
 .padded-bottom {
   padding-bottom: 1.5rem;
 }
 
 .align-right-on-medium-and-up {
   text-align: right;
-}
-
-@media screen and (max-width: 600px) {
-  .align-right-on-medium-and-up {
-    text-align: left;
-  }
 }
 
 .medium-image {
@@ -338,18 +272,6 @@ h6 {
   line-height: 1.6rem;
 }
 
-@media screen and (max-width: 315px) {
-  .contact-list i {
-    display: none;
-  }
-}
-
-@media screen and (min-width: 601px) and (max-width: 675px) {
-  .contact-list i {
-    display: none;
-  }
-}
-
 .not-ready {
   position: absolute;
   top: 17rem;
@@ -358,21 +280,6 @@ h6 {
   background-color: rgba(0,0,0,0.8);
   padding: 10px;
   border: solid 4px rgba(255,255,255,0.8);
-}
-
-
-@media screen and (max-width: 900px) and (min-width: 601px) {
-  .not-ready {
-    top: 14rem;
-    border: solid 3px rgba(255,255,255,0.8);
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .not-ready {
-    top: 10rem;
-    border: solid 2px rgba(255,255,255,0.8);
-  }
 }
 
 .kaaso-bestman-container {
@@ -384,4 +291,106 @@ h6 {
   background: url(../img/kartta-bg.jpg) center center no-repeat;
   background-size: cover;
   overflow:hidden;
+}
+
+
+
+
+
+
+@media screen and (max-width: 1100px) and (min-width: 601px) {
+  .parallax-break {
+    height: 200px;
+  }
+
+  .break-text {
+    line-height: 200px;
+  }
+}
+
+
+
+
+
+
+@media screen and (max-width: 992px) and (min-width: 601px) {
+  .parallax-header {
+    height: 300px;
+  }
+
+  .parallax-text {
+    line-height: 300px;
+  }
+
+  h5 {
+    font-size: 1.65rem;
+  }
+
+  .fancy {
+    font-size: 3rem;
+  }
+
+  .not-ready {
+    top: 14rem;
+    border: solid 3px rgba(255,255,255,0.8);
+  }
+
+}
+
+
+
+
+
+
+@media screen and (min-width: 601px) and (max-width: 675px) {
+  .contact-list i {
+    display: none;
+  }
+}
+
+
+
+
+
+@media screen and (max-width: 600px) {
+  .parallax-header {
+    height: 200px;
+  }
+
+  .parallax-text {
+    line-height: 200px;
+  }
+  
+  .parallax-break {
+    height: 125px;
+  }
+
+  .break-text {
+    line-height: 125px;
+    display: none;
+  }
+
+  .fancy {
+    font-size: 2.4rem;
+  }
+
+  .align-right-on-medium-and-up {
+    text-align: left;
+  }
+
+  .not-ready {
+    top: 10rem;
+    border: solid 2px rgba(255,255,255,0.8);
+  }
+
+}
+
+
+
+
+
+@media screen and (max-width: 315px) {
+  .contact-list i {
+    display: none;
+  }
 }
