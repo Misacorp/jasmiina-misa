@@ -1,0 +1,267 @@
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+
+body {
+  font-size: 1rem;
+  color: #494949;
+}
+
+a {
+  color: inherit !important;
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight: 500;
+}
+
+h5 {
+  font-size: 2rem;
+}
+
+h6 {
+  margin-bottom: 1rem;
+  margin-top: 0;
+  font-weight: 400;
+  font-size: 1.35rem;
+}
+
+.collapsible {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.collapsible-body {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.collapsible-body p {
+  padding: 0;
+  margin-bottom: 1em;
+}
+
+.parallax-image {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: bottom;
+}
+
+.parallax-header {
+  height: 375px;
+}
+
+.parallax-text {
+  line-height: 375px;
+  font-size: 220%;
+}
+
+#kaaso-bestman-text {
+  margin-top: 1rem;
+}
+
+.row {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.info {
+  height: auto;
+}
+
+.subsection-title {
+  line-height: 5rem;
+  margin-top: 1.5rem;
+  font-size: 2rem;
+} 
+
+.subsection-content {
+  margin-top: -50px;
+}
+
+.rounded {
+  border-radius: 5px;
+}
+
+.light {
+  font-size: 1.3rem;
+}
+
+.semibold {
+  font-weight: 400;
+}
+
+.bold {
+  font-weight: 500;
+}
+
+.hoverable {
+  cursor: pointer;
+}
+
+.container {
+  padding-bottom: 2rem;
+}
+
+.container .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.summary {
+  padding-bottom: 0;
+}
+
+.parallax-break {
+  height: 575px;
+}
+
+.fancy {
+  font-family: Pacifico;
+  font-size: 4rem;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.25);
+}
+
+.click-here-container {
+  position: relative;
+  z-index: 9;
+}
+
+.click-here {
+  font-family: Pacifico;
+  font-size: 1.75rem;
+  height: 50px;
+  line-height: 50px;
+  position: absolute;
+  top: 17px;
+  right: -5%;
+
+}
+
+.click-here-text {
+  position: absolute;
+  top: 33px;
+  right: -72%;
+}
+
+.padded-3 {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.unselectable {
+   -moz-user-select: -moz-none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+
+   /*
+     Introduced in IE 10.
+     See http://ie.microsoft.com/testdrive/HTML5/msUserSelect/
+   */
+   -ms-user-select: none;
+   user-select: none;
+}
+
+.contact-list-header {
+  height: 50px;
+  line-height: 2.1rem !important;
+  font-size: 1.2rem;
+}
+
+.contact-list-image {
+  width: 100%;
+  max-width: 35px;
+  height: auto;
+  margin-left: -5px;
+  margin-top: -4px;
+  margin-right: 13px;
+}
+
+.kaaso-bestman-container {
+  padding: 0 !important;
+  margin-top: 1rem;
+}
+
+.image-background {
+  background: url(../img/kartta-bg.jpg) center center no-repeat;
+  background-size: cover;
+  overflow:hidden;
+}
+
+
+
+
+
+
+@media screen and (max-width: 1100px) and (min-width: 601px) {
+  .parallax-break {
+    height: 200px;
+  }
+
+
+
+
+
+
+@media screen and (max-width: 992px) and (min-width: 601px) {
+  .parallax-header {
+    height: 300px;
+  }
+
+  .parallax-text {
+    line-height: 300px;
+  }
+
+  h5 {
+    font-size: 1.65rem;
+  }
+
+  .fancy {
+    font-size: 3rem;
+  }
+
+}
+
+
+
+
+
+
+@media screen and (min-width: 601px) and (max-width: 700px) {
+  .contact-list i {
+    display: none;
+  }
+}
+
+
+
+
+
+@media screen and (max-width: 600px) {
+  .parallax-header {
+    height: 200px;
+  }
+
+  .parallax-text {
+    line-height: 200px;
+  }
+  
+  .parallax-break {
+    height: 125px;
+  }
+
+  .fancy {
+    font-size: 2.4rem;
+  }
+
+}
+
+
+
+
+
+@media screen and (max-width: 315px) {
+  .contact-list i {
+    display: none;
+  }
+}
