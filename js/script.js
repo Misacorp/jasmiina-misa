@@ -1,9 +1,9 @@
-var kaisa_text = "Kaisa on Jasmiinan pitkäaikainen kämppis ja vielä pidempiaikainen ystävä.";
-var anniliina_text = "Anniliina on Jasmiinan sisko ja tietysti tärkeä ihminen!!!";
-var juulia_text = "Kuopio sistas at it again.";
-var bojko_text = "Lukuisten onnistuneiden Team Fortress Medic combojen jälkeen Bojkosta tuli Misan #1 luottomies.";
-var jarka_text = "Aina pelissä, aina lenkillä. Jarka ja Misa perustivat #ovipeelot IRC-kanavan ja tuovat sitä kautta neljä ihmistä yhteen murehtimaan elämän julmuutta.";
-var niko_text = "Nikon ja Misan yhteinen kämmpisvuosi oli herkkä ja intiimi.";
+var kaisa_text = "Kaisan ja Jasmiinan ystävyys sai alkunsa jo vuonna 2008, kun he päätyivät samaan soluun. Sinettinsä tämä parivaljakko sai kämppisasumisen myötä ja nyt he ovat kuin paita ja peppu.";
+var anniliina_text = "Anniliinan Jasmiina tapasi Mikkelin keskussairaalassa 8.6.1997. Juhlamekko päällä Jasmiina ihasteli pientä siskoaan. Siitä lähtien on leikitty ja riidelty yhdessä ja tänä päivänä he ovat edelleen mitä ylimmät ystävykset.";
+var juulia_text = "Jasmiina on tuntenut Juulian niin kauan kuin hän on ollut olemassa. Todellinen sister from another mister.";
+var bojko_text = "Bojko ja Misa ystävystyivät pian sen jälkeen, kun Misa muutti maailmalta takaisin Suomeen. Pitkätkään välimatkat eivät ole päässeet murentamaan näiden teknologiafanaatikkojen hioutuneita tiimityöskentelytaitoja.";
+var jarka_text = "Jarkan ja Misan tiet kohtasivat Tampereella Misan siviilipalvelusvuoden alussa. Heidät voi usein tavata suoriutumassa elämän haasteista niin lautapelien ääressä kuin lenkkipolullakin.";
+var niko_text = "Vuoden Misan kanssa asuneena Nikolla on ainutlaatuista kokemusta Misan todellisesta luonteesta. Misa uskoo kokemuksen olevan hyvää, koska uskalsi pyytää tätä hurjapäätä bestmanikseen.";
 
 $(document).ready(function() {
       $('.parallax').parallax();

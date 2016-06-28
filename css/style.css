@@ -56,6 +56,10 @@ h6 {
   font-size: 220%;
 }
 
+#kaaso-bestman-text {
+  margin-top: 1rem;
+}
+
 .centered {
   margin-left: auto;
   margin-right: auto;
