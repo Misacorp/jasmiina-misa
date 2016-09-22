@@ -16,6 +16,10 @@ $(document).ready(function() {
       $('#jarkanpuhelin').text(rakennaPuh("97","39","847 ","040 "));
     });
 
+$("#parkkilinkki").click(function() {
+  $("#click-here-container").hide();
+});
+
 $("#infolista").click(function() {
 	$("#click-here-container").hide();
 });
@@ -34,4 +38,9 @@ $(".person-button").click(function() {
   var nimi = $(this).closest("img").attr("id");
   nimi = nimi.replace("-button","_text");
   $("#kaaso-bestman-text").text(window[nimi]);
+});
+
+$("#parkkilinkki").click(function() {
+  $("#paikkatieto").addClass("active");
+  $(".collapsible").collapsible({accordion: false});
 });
