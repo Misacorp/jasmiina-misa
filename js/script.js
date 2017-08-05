@@ -10,10 +10,10 @@ $(document).ready(function() {
 });
 
  $(document).one("scroll", function() {
-      $('#kaisanmaili').text(rakennaPosti("kuismanen","kaisak","il.com","gma"));
-      $('#jarkanmaili').text(rakennaPosti("kiihamaki","jarka.","l.com","gmai"));
-      $('#kaisanpuhelin').text(rakennaPuh("99","92","320 ","050 "));
-      $('#jarkanpuhelin').text(rakennaPuh("97","39","847 ","040 "));
+      $('#kaisanmaili').text(rakennaPosti("-","-","-.-","-"));
+      $('#jarkanmaili').text(rakennaPosti("-","-.","-.-","-"));
+      $('#kaisanpuhelin').text(rakennaPuh("-","-","- ","- "));
+      $('#jarkanpuhelin').text(rakennaPuh("-","-","- ","- "));
     });
 
 $("#parkkilinkki").click(function() {
